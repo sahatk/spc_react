@@ -1,0 +1,287 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*section_box1 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#section_box1 {
+    position: relative;
+    width: 100%;
+    height: 920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* background-image: url(../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_01.jpg); */
+} /* SPC 소개글과 배경 슬라이드 박스 */
+
+
+#section_box1 .container {
+    position: absolute;
+    top:0; bottom:0; left:0; right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    /* width: 100%; */
+    min-width: 300px;
+    height: inherit;
+    margin: auto;
+    overflow: hidden;
+} /* SPC 소개글 위치 영역 박스 */
+
+/*//////////////추가한 항목 슬라이드 2022-07-18 /////////////////*/
+#section_box1 .indicators{
+    position: absolute; z-index: 100;
+    left: 0; right: 0; margin:auto;
+    bottom:1.5rem;
+    width: 100%; height:auto;
+} /* 인디케이터 전체 영역 */
+
+#section_box1 .indicators ul{
+    width: auto; height: auto;
+    padding:0.2rem;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    /* background-color: #ddd; */
+} /* 인디케이터 ul */
+
+#section_box1 .indicators li {
+    width: 1.5rem; height: 1.5rem;
+} /* 인디케이터 li */
+
+#section_box1 .indicators li a{
+    display: block;
+    width: 100%; height: 100%;
+    /* border: 1px solid #555; */
+    background-color: #fff;
+    border-radius: 4rem;
+} /* 인디케이터 li a */
+
+#section_box1 .indicators li.action a{
+    background-color: #23afe3;
+} /* 인디케이터 li action a */
+
+#section_box1 .indicators li.action{
+    width: 1.5rem;
+} /* 인디케이터 li action a */
+
+
+#section_box1 .view_area{
+    width: 100%; height: 100%;
+    overflow: hidden;
+} /* 배경 슬라이드 전체 영역 */
+
+#section_box1 .view_area ul {
+    position: relative; left:0; top:0;
+    width: calc(100% * 5); height:100%; background-color: #ddd;
+    margin-left: -100%;
+    display: flex;
+} /* 배경 슬라이드 전체 영역 ul */
+
+.view_area .transition_show{
+    transition: all 500ms linear;
+} /* 배경 슬라이드 트랜지션*/
+
+.view_area .transition_none{
+    transition: none;
+} /* 배경 슬라이드 트랜지션 none*/
+
+.view_area li{
+    width: calc(100% / 5); height: 100%;
+    text-align: center;
+    line-height: 600px;
+    font-size: 2rem; font-weight: 700;
+} /* 배경 이미지 li */
+
+.view_area li.main_view_01{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_01.jpg'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.view_area li.main_view_02{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_02.png'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.view_area li.main_view_03{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_03.png'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.view_area li.main_view_04{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_04.jpg'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+
+/*//////////////추가한 항목 슬라이드 2022-07-18 /////////////////*/
+
+#section_box1 .main_title_text {
+
+    color: #fff;
+    font-weight: 700;
+} /*제목 텍스트 */
+
+
+#section_box1 .main_title_text p:first-child {
+    float: left;
+    font-size: var(--font-content_03);
+    font-weight: 300;
+} /*Happy Sincerity*/
+
+
+#section_box1 .main_title_text .solid {
+    float: left;
+    width: 50px;
+    margin: 14px 0 0 10px;
+    border-bottom: 2px solid #fff;
+} /* 화이트 라인*/
+
+
+#section_box1 .main_title_text p:nth-child(3) {
+    clear: both;
+    text-transform: uppercase;
+    font-size: var(--font-title_01);
+} /*SPC그룹과 함께*/
+
+
+#section_box1 .main_title_text p:nth-child(4) {
+    font-size: var(--font-title_01);
+} /*세상은 더 행복해집니다.*/
+
+
+#section_box1 .prev_button_wrap {
+    position: absolute; z-index: 100;
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    width: 80px;
+    height: 40px;
+} /*prev_button*/
+
+#section_box1 .prev_button_wrap:hover p {
+    color: #000000;
+    cursor: pointer;
+} /*prev_button 오버시 text prev color : 검정*/
+
+#section_box1 .prev_button_wrap .prev_button {
+    vertical-align: center;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url('https://api.iconify.design/bi/arrow-left-short.svg?color=white&width=16&height=16') no-repeat center center / contain;
+}
+
+#section_box1 .prev_button_wrap:hover .prev_button {
+    background: url('https://api.iconify.design/bi/arrow-left-short.svg?width=16&height=16') no-repeat center center / contain;
+    cursor: pointer;
+}
+
+#section_box1 .prev_button_wrap p {
+    float: right;
+    width: 40px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+
+/*prev_button*/
+
+
+/*next_button*/
+#section_box1 .next_button_wrap {
+    position: absolute; z-index: 100;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 40px;
+}
+
+#section_box1 .next_button_wrap:hover p {
+    color: #000000;
+    cursor: pointer;
+}
+
+#section_box1 .next_button_wrap .next_button {
+    vertical-align: center;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: url('https://api.iconify.design/bi/arrow-right-short.svg?color=white&width=16&height=16') no-repeat center center / contain;
+}
+
+#section_box1 .next_button_wrap:hover .next_button {
+    background: url('https://api.iconify.design/bi/arrow-right-short.svg?width=16&height=16') no-repeat center center / contain;
+    cursor: pointer;
+}
+
+
+#section_box1 .next_button_wrap p {
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+/*next_button*/
+
+/*sns wrap*/
+#section_box1 .navigation {
+    width: auto;
+    height: auto;
+}
+
+#section_box1 .navigation ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 70px;
+    height: 300px;
+}
+
+/* sns 네비게이션 h2 안보이게*/
+#section_box1 .navigation h2 {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/*happy-point icon*/
+#section_box1 .navigation li:nth-child(1) {
+    background-image: url(../../../public/img/main_img/section_box1/main_sns/happy_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+    width: 70px;
+    height: 70px;
+}
+
+/*instagram icon*/
+#section_box1 .navigation li:nth-child(2) {
+    background-image: url(../../../public/img/main_img/section_box1/main_sns/instagram_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+    width: 70px;
+    height: 70px;
+}
+
+/*facebook icon*/
+#section_box1 .navigation li:nth-child(3) {
+    background-image: url(../../../public/img/main_img/section_box1/main_sns/facebook_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px 30px;
+    width: 70px;
+    height: 70px;
+}
+
+/*youtube icon*/
+#section_box1 .navigation li:nth-child(4) {
+    background-image: url(../../../public/img/main_img/section_box1/main_sns/youtube_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+    width: 70px;
+    height: 70px;
+}
+
+/*sns wrap*/
+
+/*section_box1 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

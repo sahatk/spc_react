@@ -1,0 +1,16 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*section_box4 (banner) /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box4 {
+
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-image: url(../../../public/img/main_img/section_box4/main-banner.jpg);
+}
+
+/*section_box4 (banner) /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

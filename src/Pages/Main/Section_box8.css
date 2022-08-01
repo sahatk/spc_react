@@ -1,0 +1,250 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*section_box8 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box8 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+
+    background-color: #ffffff;
+    z-index: 2;
+
+}
+
+/*황토색 YOUTUBE_bg 박스*/
+#section_box8 .youtube_box_bg {
+    position: absolute;
+    width: 750px;
+    height: 900px;
+    background-color: #fff0c3;
+    border-bottom-right-radius: 70px;
+    z-index: -1;
+
+}
+
+#section_box8 .container {
+    width: 1800px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+    background-color: transparent;
+    /* background-color: #8c94da; */
+}
+
+.main_youtube_wrap_01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 150px;
+    margin-top: 2rem;
+    background-color: transparent;
+    /* background-color: #d1ebfa; */
+}
+
+
+.main_youtube_wrap_02 {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 450px;
+    background-color: transparent;
+    /* background-color: #8cda98; */
+    float: left;
+}
+
+.main_youtube_wrap_03 {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 450px;
+    background-color: transparent;
+    /* background-color: #23afe3; */
+    float: right;
+}
+
+/*SPC YOUTUBE TEXT BOX*/
+.main_youtube_wrap_01 .main_youtube_text {
+    width: 50%;
+    height: 150px;
+    float: left;
+    margin-left: 11rem;
+
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+.main_youtube_wrap_01 .main_youtube_text h2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+}
+
+
+.main_youtube_wrap_01 .main_youtube_text p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+    font-size: var(--font-content_03);
+    color: #7d7d7d;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+/*SPC YOUTUBE TEXT BOX*/
+
+/*SPC YOUTUBE VIEW_ALL BOX*/
+.main_youtube_wrap_02 .main_youtube_view {
+    margin-left: 11rem;
+}
+
+.main_youtube_view .main_view_all {
+    margin-bottom: 4rem;
+}
+
+.main_youtube_view .main_view_left {
+    float: right;
+}
+
+.main_youtube_view .main_view_right {
+    float: right;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+}
+
+
+/*SPC YOUTUBE VIEW_ALL BOX*/
+
+/* SPC YOUTUBE CARD 박스 크기 및 위치 설정 */
+.main_youtube_card {
+    display: flex;
+
+    align-items: center;
+    width: 1200px;
+    height: 450px;
+    box-sizing: border-box;
+
+}
+
+.main_youtube_card ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 450px;
+    /* background-color: #dff; */
+    background-color: transparent;
+
+    flex-wrap: wrap;
+}
+
+.main_youtube_card li {
+    display: flex;
+    align-items: center;
+
+    width: 360px;
+    height: 300px;
+    box-sizing: border-box;
+    margin: 1rem;
+    border-radius: 40px;
+    background-color: var(--color-white);
+    box-shadow: 0px 0px 13px #ccc;
+}
+
+.main_youtube_card li .outline {
+    position: relative;
+    width: 360px;
+    height: 300px;
+
+}
+
+/* SPC YOUTUBE CARD 박스 크기 및 위치 설정 */
+
+/* SPC YOUTUBE CARD 이미지 */
+.main_youtube_card .outline .card_image_01 {
+    width: 360px;
+    height: 210px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box8/youtube_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.main_youtube_card .outline .card_image_02 {
+    width: 360px;
+    height: 210px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box8/youtube_bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_youtube_card .outline .card_image_03 {
+    width: 360px;
+    height: 210px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box8/youtube_bg_03.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* SPC YOUTUBE CARD 이미지 */
+
+/* SPC YOUTUBE CARD text */
+
+/*SPC YOUTUBE CARD 설명 부분 */
+
+.main_youtube_card .card_text_01 {
+    padding: 0px 10px 10px;
+}
+
+.main_youtube_card .card_text_01 p {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+/*SPC YOUTUBE CARD 설명 부분 */
+
+
+/*SPC YOUTUBE CARD 날짜 부분 */
+.main_youtube_card .card_text_01 b {
+    color: #7d7d7d;
+}
+
+.main_youtube_card .card_text_wrap_02 {
+    padding-left: 10px;
+}
+
+/*SPC YOUTUBE CARD 날짜 부분 */
+
+
+
+/* SPC YOUTUBE CARD text */
+
+/*section_box8 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

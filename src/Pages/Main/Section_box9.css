@@ -1,0 +1,199 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*section_box9 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box9 {
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    background: linear-gradient(#ffffff, #d1ebfa);
+}
+
+#section_box9 .container {
+    width: 1440px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: #8cda98; */
+    background-color: transparent;
+}
+
+/*SPC SNS 타이틀과 VIEW ALL wrap*/
+.main_sns_wrap_01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 150px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* background-color: #d1ebfa; */
+    background-color: transparent;
+
+}
+
+/*SPC SNS TEXT BOX*/
+.main_sns_wrap_01 .main_sns_text {
+    width: 50%;
+    height: 150px;
+    float: left;
+
+
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+.main_sns_wrap_01 .main_sns_text h2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+}
+
+
+.main_sns_wrap_01 .main_sns_text p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+    font-size: var(--font-content_03);
+    color: #7d7d7d;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+/*SPC SNS TEXT BOX*/
+
+/*SPC SNS VIEW_ALL BOX*/
+.main_sns_wrap_01 .main_sns_view {
+    display: flex;
+    overflow: hidden;
+    margin-right: 1rem;
+    gap: 40px;
+}
+
+.main_sns_view .main_view_left {
+    float: left;
+    margin: 1rem;
+}
+
+.main_sns_view .main_view_right {
+    float: left;
+    margin: 1rem;
+}
+
+.main_sns_view .main_view_all {
+    float: left;
+    margin: 1rem;
+}
+
+/*SPC SNS VIEW_ALL BOX*/
+
+/* SPC SNS CARD 박스 크기 및 위치 설정 */
+.main_sns_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    box-sizing: border-box;
+
+}
+
+.main_sns_card ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    /* background-color: #dff; */
+    background-color: transparent;
+
+    flex-wrap: wrap;
+}
+
+.main_sns_card li {
+    display: flex;
+    align-items: center;
+
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    border-radius: 15px;
+    background-color: var(--color-white);
+    box-shadow: 0px 0px 13px #ccc;
+}
+
+.main_sns_card li .outline {
+    position: relative;
+    width: 250px;
+    height: 250px;
+
+}
+
+/* SPC SNS CARD 박스 크기 및 위치 설정 */
+
+/* SPC SNS CARD 이미지 */
+.main_sns_card .outline .card_image_01 {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url(../../../public/img/main_img/section_box9/sns_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.main_sns_card .outline .card_image_02 {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url(../../../public/img/main_img/section_box9/sns_bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_sns_card .outline .card_image_03 {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url(../../../public/img/main_img/section_box9/sns_bg_03.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_sns_card .outline .card_image_04 {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url(../../../public/img/main_img/section_box9/sns_bg_04.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_sns_card .outline .card_image_05 {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-image: url(../../../public/img/main_img/section_box9/sns_bg_05.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* SPC SNS CARD 이미지 */
+
+/*section_box9 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

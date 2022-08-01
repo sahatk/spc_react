@@ -1,0 +1,30 @@
+/* SPC NEWS VIEW MORE 버튼*/
+.view_more{
+    width: 180px;
+    height: 50px;
+    
+    border-radius: 40px;
+    background-color: #7c7c7c29;
+    text-align: center;
+  }
+  
+  .view_more:hover{
+    background-color: #1e2432;
+    cursor: pointer;
+    color:#fff;
+  }
+  
+  .view_more a{
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+  } 
+  
+  .view_more a:hover{
+    cursor: pointer;
+  } 

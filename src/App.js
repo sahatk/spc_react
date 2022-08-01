@@ -2,7 +2,7 @@ import HeaderBox from './Component/Common/HeaderBox';
 import Contents from './Component/Common/Contents';
 import FooterBox from './Component/Common/FooterBox';
 
-import './App.scss';
+import './App.css';
 
 function App() {
   return (

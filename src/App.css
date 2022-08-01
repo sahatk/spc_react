@@ -1,0 +1,30 @@
+@import './common/variable.css';
+@import './common/reset.css';
+@import './common/common.css';
+
+#header_box{
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  z-index: 1000;
+  background-color: transparent;
+
+  
+}
+
+#header_box:hover{
+  background-color: #fff !important;
+}
+
+
+.content_area{
+  width: 100%; height: auto; min-height: 500px;
+  background-color: #dda;
+}
+
+#footer_box{
+  width: 100%; height: 150px;
+  background-color: #aaa;
+}

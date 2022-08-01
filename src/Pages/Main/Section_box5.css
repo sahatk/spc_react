@@ -1,0 +1,235 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*section_box5 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box5 {
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+#section_box5 .container {
+    width: 1500px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: #c4c4c4; */
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+/*SPC 해피포인트 타이틀과 VIEW ALL wrap*/
+.main_happypoint_wrap_01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 150px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* background-color: #fff; */
+    background-color: transparent;
+
+}
+
+/*SPC 해피포인트 TEXT BOX*/
+.main_happypoint_wrap_01 .main_happypoint_text {
+    width: 50%;
+    height: 150px;
+    float: left;
+
+
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.main_happypoint_wrap_01 .main_happypoint_text h2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+}
+
+
+.main_happypoint_wrap_01 .main_happypoint_text p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+    font-size: var(--font-content_03);
+    color: #7d7d7d;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+/*SPC 해피포인트 TEXT BOX*/
+
+/*SPC 해피포인트 VIEW_ALL BOX*/
+.main_happypoint_wrap_01 .main_view_all {
+    margin-right: 1rem;
+}
+
+/*SPC 해피포인트 타이틀과 VIEW ALL wrap*/
+
+
+/* CARD 박스 크기 및 위치 설정 */
+.main_happypoint_card {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    box-sizing: border-box;
+}
+
+.main_happypoint_card ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 450px;
+    /* background-color: #dff; */
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+
+.main_happypoint_card li {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: var(--color-white);
+    box-shadow: 0px 0px 13px #ccc;
+}
+
+.main_happypoint_card li .outline {
+    position: relative;
+    width: 250px;
+    height: 400px;
+
+}
+
+/* CARD 박스 크기 및 위치 설정 */
+
+/* SPC 해피포인트 CARD 이미지 */
+.main_happypoint_card .outline .card_image_01 {
+    height: 250px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box5/point_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_happypoint_card .outline .card_image_02 {
+    height: 250px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box5/point_bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_happypoint_card .outline .card_image_03 {
+    height: 250px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box5/point_bg_03.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_happypoint_card .outline .card_image_04 {
+    height: 250px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box5/point_bg_04.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_happypoint_card .outline .card_image_05 {
+    height: 250px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-image: url(../../../public/img/main_img/section_box5/point_bg_05.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* SPC 해피포인트 CARD 이미지 */
+
+
+
+/* SPC 해피포인트 CARD 설명 */
+.main_happypoint_card .card_text_01 {
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+.main_happypoint_card .card_text_02 {
+    position: absolute;
+    width: 300px;
+
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 30px 40px;
+    font-weight: 700;
+}
+
+.main_happypoint_card .card_text_03 {
+    position: absolute;
+    width: 300px;
+
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 10px 40px;
+    font-weight: 700;
+}
+
+.main_happypoint_card .card_text_04 {
+    position: absolute;
+    width: 300px;
+
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 10px 40px;
+    font-weight: 700;
+}
+
+.main_happypoint_card .card_text_01 p {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+/*SPC 해피포인트 구매하러 가기 버튼 위치 조정*/
+.main_happypoint_card .buy {
+    margin: 0 auto;
+}
+
+/*SPC 해피포인트 구매하러 가기 버튼 위치 조정*/
+
+/* SPC 해피포인트 CARD 설명 */
+
+/*section_box5 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

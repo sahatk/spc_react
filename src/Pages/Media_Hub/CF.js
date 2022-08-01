@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Spc_Cf() {
+function CF() {
   return (
-    <div>Spc_Cf</div>
+    <div>CF</div>
   )
 }
 
-export default Spc_Cf
+export default CF

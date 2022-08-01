@@ -1,0 +1,369 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*section_box3 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#section_box3 {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #e2e2e8;
+}
+
+#section_box3 .container {
+    position: relative;
+    width: 1440px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: #c4c4c4; */
+    background-color: transparent;
+}
+
+/*SPC BRAND prev_button*/
+
+#section_box3 .prev_button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    width: 50px;
+    height: 50px;
+    background: url('https://api.iconify.design/bi/arrow-left-short.svg?color=gray') no-repeat center center / contain;
+    z-index: 100;
+}
+
+#section_box3 .prev_button:hover:disabled {
+
+    background: url('https://api.iconify.design/bi/arrow-left-short.svg?color=gray') no-repeat center center / contain;
+
+}
+
+#section_box3 .prev_button:hover {
+    background: url('https://api.iconify.design/bi/arrow-left-short.svg?width=16&height=16') no-repeat center center / contain;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+
+
+/*SPC BRAND prev_button*/
+
+/*SPC BRAND next_button*/
+
+#section_box3 .next_button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+    width: 50px;
+    height: 50px;
+    background: url('https://api.iconify.design/bi/arrow-right-short.svg?color=gray') no-repeat center center / contain;
+    z-index: 100;
+}
+
+#section_box3 .next_button:hover:disabled {
+
+    background: url('https://api.iconify.design/bi/arrow-right-short.svg?color=gray') no-repeat center center / contain;
+
+}
+
+#section_box3 .next_button:hover {
+    background: url('https://api.iconify.design/bi/arrow-right-short.svg?width=16&height=16') no-repeat center center / contain;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+/*SPC BRAND next_button*/
+
+/*SPC BRAND 타이틀과 탭메뉴 wrap*/
+.main_brand_wrap_01 {
+    width: 1440px;
+    height: 150px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+/*원으로 된 카드 wrap*/
+.main_brand_wrap_02 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* width:1440px; */
+    width: 100%;
+    height: 300px;
+    margin-top: 1rem;
+    margin: 0 auto;
+    /* background-color: #b0acac; */
+    background-color: transparent;
+}
+
+/*view_all 버튼 wrap*/
+.main_brand_wrap_03 {
+    display: flex;
+    justify-content: center;
+    /* width: 1300px; */
+    width: 100%;
+    height: 100px;
+    margin-top: 1rem;
+    margin: 0 auto;
+    /* background-color: #fda; */
+    background-color: transparent;
+
+}
+
+/*SPC BRAND TEXT BOX*/
+.main_brand_text {
+    width: 30%;
+    height: 150px;
+    float: left;
+
+
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+.main_brand_text h2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+}
+
+
+.main_brand_text p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+    font-size: var(--font-content_03);
+    color: #7d7d7d;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+/*SPC BRAND TEXT BOX*/
+
+/*SPC BRAND TAB BOX*/
+
+.main_brand_tab {
+    width: 70%;
+    float: right;
+    background-color: #c4c4c4;
+
+
+}
+
+.main_brand_tab ul {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    list-style-type: none;
+
+}
+
+.main_brand_tab li {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.main_brand_tab li button {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+/*탭 메뉴 글자(베이커리,외식,카페,서비스) */
+.main_brand_tab li p {
+    width: 250px;
+    margin-top: 10px;
+
+    font-size: 16px;
+    text-align: center;
+    color: #dedede;
+    font-weight: 700;
+
+}
+
+.main_brand_tab li p:hover{
+    color: #000000;
+
+
+}
+
+.main_brand_tab .action {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* SPC BRAND 탭 아이콘 이미지 크기 및 위치 조정*/
+
+.main_brand_tab .tab_icon_00 {
+    width: 250px;
+    height: 50px;
+
+    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/bread_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_tab .tab_icon_01 {
+    width: 250px;
+    height: 50px;
+
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/dinner_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_tab .tab_icon_02 {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/cafe_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_tab .tab_icon_03 {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/service_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* SPC BRAND 탭 아이콘 이미지 크기 및 위치 조정*/
+/*SPC BRAND TAB BOX*/
+
+
+/*SPC BRAND CARD*/
+
+.main_brand_card {
+    width: 1200px;
+    height: 300px;
+}
+
+.main_brand_card ul {
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main_brand_card li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: var(--color-white);
+}
+
+.main_brand_card li .image {
+    width: 220px;
+    height: 220px;
+
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_card li .card_image_01 {
+    width: 220px;
+    height: 220px;
+
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/brand_wrap/bread/bread_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_card li .card_image_02 {
+    width: 220px;
+    height: 220px;
+
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/brand_wrap/bread/bread_02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_card li .card_image_03 {
+    width: 220px;
+    height: 220px;
+
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/brand_wrap/bread/bread_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_card li .card_image_04 {
+    width: 220px;
+    height: 220px;
+
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/brand_wrap/bread/bread_04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_brand_card li .card_image_05 {
+    width: 220px;
+    height: 220px;
+
+    text-align: center;
+    background-image: url(../../../public/img/main_img/section_box3/brand_wrap/bread/bread_05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+/*section_box3 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

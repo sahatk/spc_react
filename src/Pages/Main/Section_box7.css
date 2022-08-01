@@ -1,0 +1,220 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*section_box7 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box7 {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #e7e7e7;
+}
+
+#section_box7 .container {
+    width: 1440px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 750px;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: #8c94da; */
+    background-color: transparent;
+}
+
+/*SPC MAGAZINE 타이틀과 VIEW ALL wrap*/
+
+.main_magazine_wrap_01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 150px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* background-color: #fff; */
+    background-color: transparent;
+
+
+}
+
+/*main_magazine_wrap_02*/
+.main_magazine_wrap_02 {
+    width: 1440px;
+    height: 350px;
+    /* background-color: #fff; */
+    background-color: transparent;
+
+}
+
+/*main_magazine_wrap_02*/
+
+/*SPC MAGAZINE TEXT BOX*/
+.main_magazine_wrap_01 .main_magazine_text {
+    width: 50%;
+    height: 150px;
+    float: left;
+
+
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+.main_magazine_wrap_01 .main_magazine_text h2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+}
+
+
+.main_magazine_wrap_01 .main_magazine_text p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+
+    font-size: var(--font-content_03);
+    color: #7d7d7d;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+/*SPC MAGAZINE TEXT BOX*/
+
+/*SPC MAGAZINE VIEW_ALL BOX*/
+.main_magazine_wrap_01 .main_view_all {
+    margin-right: 1rem;
+}
+
+/*SPC MAGAZINE 타이틀과 VIEW ALL wrap*/
+
+/* SPC MAGAZINE CARD 박스 크기 및 위치 설정 */
+.main_magazine_card {
+    width: 1438px;
+    height: auto;
+    margin-top: 1rem;
+    box-sizing: border-box;
+
+}
+
+.main_magazine_card ul {
+    width: 1438px;
+    height: 350px;
+    background-color: #fff;
+    /* background-color: transparent; */
+
+    flex-wrap: wrap;
+}
+
+.main_magazine_card li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 340px;
+    height: 350px;
+    box-sizing: border-box;
+    background-color: var(--color-white);
+}
+
+.main_magazine_card .card_line_right {
+    width: 13px;
+    height: 350px;
+    border-right: 1px solid #7d7d7d;
+}
+
+.main_magazine_card .card_line_left {
+    width: 13px;
+    height: 350px;
+    border-left: 1px solid #7d7d7d;
+}
+
+
+
+/* SPC MAGAZINE CARD li before 세로 회색 실선 */
+/* .main_magazine_card li::after {
+    position:absolute; top:0; bottom:0; right: 0;
+    margin-right: -2px;
+    display:block;
+    content: ""; 
+    width: 1px; height: 100%;
+    background-color: rgba(125, 125, 125, 0.4);
+
+}
+
+.main_magazine_card li:last-child:after {display: none;} */
+
+.main_magazine_card li .outline {
+    position: relative;
+    width: 340px;
+    height: 350px;
+
+
+}
+
+/* SPC MAGAZINE CARD 박스 크기 및 위치 설정 */
+
+/* SPC MAGAZINE CARD 이미지 */
+.main_magazine_card .outline .card_image_01 {
+    width: 340px;
+    height: 280px;
+    background-image: url(../../../public/img/main_img/section_box7/magazine_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main_magazine_card .outline .card_image_02 {
+    width: 340px;
+    height: 280px;
+    background-image: url(../../../public/img/main_img/section_box7/magazine_bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main_magazine_card .outline .card_image_03 {
+    width: 340px;
+    height: 280px;
+    background-image: url(../../../public/img/main_img/section_box7/magazine_bg_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main_magazine_card .outline .card_image_04 {
+    width: 340px;
+    height: 280px;
+    background-image: url(../../../public/img/main_img/section_box7/magazine_bg_04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+}
+
+/* SPC MAGAZINE CARD 이미지 */
+
+/* SPC MAGAZINE CARD 날짜 */
+.main_magazine_card .card_text_01 {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.main_magazine_card b {
+    font-size: 18px;
+    color: #7d7d7d;
+}
+
+
+
+
+
+/*section_box7 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

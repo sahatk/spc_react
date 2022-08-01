@@ -1,0 +1,31 @@
+/* SPC 해피포인트 구매하러 가기 버튼*/
+.buy{
+    width: 200px;
+    height: 50px;
+    
+    border-radius: 40px;
+    background-color: #7c7c7c29;
+    text-align: center;
+  }
+  
+  .buy:hover{
+    background-color: #1e2432;
+    cursor: pointer;
+    color:#fff;
+  }
+  
+  .buy a{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .buy a:hover{
+    color:#fff;
+    cursor: pointer;
+  } 
+  /* SPC 해피포인트 구매하러 가기 버튼*/

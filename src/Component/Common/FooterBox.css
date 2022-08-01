@@ -1,0 +1,342 @@
+@import '../../common/variable.css';
+@import '../../common/common.css';
+@import '../../common/reset.css';
+
+/*footer_box//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#footer_box {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+/*FOOTER_WRAP_01 : SPC Footer icon 및 prev,next 버튼*/
+.main_footer_wrap_01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    /* background-color: #23afe3; */
+    background-color: white;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.main_footer_wrap_01 .main_footer_icon {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    height: 150px;
+
+    /* background-color: #ffffff; */
+    background-color: transparent;
+}
+
+.main_footer_icon ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.main_footer_icon .prev_button {
+    width: 50px;
+    height: 50px;
+    background: url('https://api.iconify.design/bi/arrow-left-short.svg?color=gray') no-repeat center center / contain;
+}
+
+.main_footer_icon .prev_button:hover {
+    background: url('https://api.iconify.design/bi/arrow-left-short.svg?width=16&height=16') no-repeat center center / contain;
+    cursor: pointer;
+}
+
+
+.main_footer_icon .next_button {
+    width: 50px;
+    height: 50px;
+    background: url('https://api.iconify.design/bi/arrow-right-short.svg?color=gray') no-repeat center center / contain;
+}
+
+.main_footer_icon .next_button:hover {
+    background: url('https://api.iconify.design/bi/arrow-right-short.svg?width=16&height=16') no-repeat center center / contain;
+    cursor: pointer;
+}
+
+.main_footer_icon .icon_01 {
+    width: 200px;
+    height: 150px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_icon_box/SAMLIP.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_footer_icon .icon_02 {
+    width: 200px;
+    height: 150px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_icon_box/PACK.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main_footer_icon .icon_03 {
+    width: 200px;
+    height: 150px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_icon_box/LOGITICS.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.main_footer_icon .icon_04 {
+    width: 200px;
+    height: 150px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_icon_box/GFS.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/*SPC Footer icon 및 prev,next 버튼*/
+/*FOOTER_WRAP_01 : SPC Footer icon 및 prev,next 버튼*/
+
+/*FOOTER_WRAP_02 : SPC Footer logo 및 주소,정보, Footer 아이콘*/
+.main_footer_wrap_02 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+    height: 200px;
+}
+
+/*SPC Footer logo*/
+.main_footer_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 200px;
+    /* background-color: #8c94da; */
+    background-color: transparent;
+}
+
+.main_footer_logo h1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.main_footer_logo a {
+    width: 100px;
+    height: 100px;
+}
+
+.main_footer_logo .footer_logo {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/*SPC Footer logo*/
+
+/* SPC Footer 주소 및 정보*/
+.main_footer_info {
+    margin-top: 50px;
+}
+
+.main_footer_info ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.main_footer_info ul li:first-child {
+    color: #23afe3;
+}
+
+
+.main_footer_icon_wrap {
+    margin-top: 50px;
+}
+
+.main_footer_icon_wrap ul {
+    display: flex;
+    gap: 40px;
+}
+
+.main_footer_icon_wrap li {
+    width: 100px;
+    height: 100px;
+}
+
+.main_footer_icon_wrap li:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_happy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main_footer_icon_wrap li:nth-child(1):hover {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_happy_hov.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+.main_footer_icon_wrap li:nth-child(2) {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_sns_insta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main_footer_icon_wrap li:nth-child(2):hover {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_sns_insta_hov.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+.main_footer_icon_wrap li:nth-child(3) {
+    width: 80px;
+    height: 40px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_sns_facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.main_footer_icon_wrap li:nth-child(3):hover {
+    width: 80px;
+    height: 40px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_sns_facebook_hov.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main_footer_icon_wrap li .icon_text_facebook {
+    width: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+
+.main_footer_icon_wrap li:nth-child(4) {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_sns_youtube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main_footer_icon_wrap li:nth-child(4):hover {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_sns_youtube_hov.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+.main_footer_icon_wrap li:hover .font_18 {
+    font-weight: 700;
+}
+
+
+.main_footer_icon_wrap .icon_text {
+    width: 100px;
+    text-align: center;
+    margin-top: 80px;
+
+
+    text-transform: capitalize;
+
+}
+
+/* SPC Footer 주소 및 정보*/
+/*FOOTER_WRAP_02 : SPC Footer logo 및 주소,정보, Footer 아이콘*/
+
+
+/*FOOTER_WRAP_03 : FAMILY SITE 버튼 */
+.main_footer_wrap_03 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* background-color: #23afe3; */
+    background-color: transparent;
+}
+
+.main_footer_wrap_03 .main_family_site {
+    margin-left: 990px;
+}
+
+/*FAMILY SITE 버튼 */
+
+/*footer_box//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*main_footer_FAMILY_SITE 버튼*/
+.main_family_site{
+    display: flex; justify-content: space-between; align-items: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 13px #ccc;
+    padding-left: 30px;
+    
+  }
+  
+  .main_family_site p{
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+  }
+  
+  .main_family_site .top_arrow{
+    width: 10px;
+    height: 10px;
+    padding-left: 60px;
+    background-image: url(../../../public/img/main_img/footer_box/footer_dropdown.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  /*main_footer_FAMILY_SITE 버튼*/
