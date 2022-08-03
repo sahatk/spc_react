@@ -4,8 +4,8 @@ import './View_right.css';
 
 function View_right() {
     return (
-        <div class="main_view_right">
-            <div class="next_button"></div>
+        <div className="main_view_right">
+            <div className="next_button"></div>
         </div>
     )
 }

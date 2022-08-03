@@ -2,7 +2,7 @@ import React from 'react'
 
 function Buttons(props) {
   return (
-    <div classNameName='buttons'>
+    <div className='buttons'>
         <div className="prev_button_wrap" onClick={props.prevEvent}>
             <div className="prev_button"></div>
             <p>prev</p>

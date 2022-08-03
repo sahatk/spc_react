@@ -4,8 +4,8 @@ import './View_left.css';
 
 function View_left() {
     return (
-        <div class="main_view_left">
-            <div class="prev_button"></div>
+        <div className="main_view_left">
+            <div className="prev_button"></div>
         </div>
     )
 }

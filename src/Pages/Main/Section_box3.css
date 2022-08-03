@@ -211,57 +211,40 @@
 
 }
 
+.main_brand_tab li:first-child p {
+    width: 250px;
+    margin-top: 10px;
+
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+
+}
+
 .main_brand_tab li p:hover{
     color: #000000;
 
 
 }
 
+
 .main_brand_tab .action {
     color: #000000;
     font-size: 16px;
     font-weight: 700;
+}
 
+.main_brand_tab .none{
+    color: #dedede;
 }
 
 /* SPC BRAND 탭 아이콘 이미지 크기 및 위치 조정*/
 
-.main_brand_tab .tab_icon_00 {
+.main_brand_tab .tab_icon {
     width: 250px;
     height: 50px;
 
-    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/bread_icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.main_brand_tab .tab_icon_01 {
-    width: 250px;
-    height: 50px;
-
-    text-align: center;
-    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/dinner_icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.main_brand_tab .tab_icon_02 {
-    width: 250px;
-    height: 50px;
-    text-align: center;
-    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/cafe_icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.main_brand_tab .tab_icon_03 {
-    width: 250px;
-    height: 50px;
-    text-align: center;
-    background-image: url(../../../public/img/main_img/section_box3/main_tab_wrap/service_icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -298,6 +281,7 @@
     border-radius: 50%;
     background-color: var(--color-white);
 }
+
 
 .main_brand_card li .image {
     width: 220px;

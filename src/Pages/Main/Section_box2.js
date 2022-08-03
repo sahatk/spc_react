@@ -9,8 +9,8 @@ import './Section_box2.css';
 function Section_box2(props) {
   return (
     <section id='section_box2'>
-        <h1 class="blind">section_box2</h1>
-        <div class="container">
+        <h1 className="blind">section_box2</h1>
+        <div className="container">
             <div  className='main_group_text'>
                     <h2>spc group</h2>
                     <p>spc그룹은 언제나 고객의 행복을 향합니다.</p>

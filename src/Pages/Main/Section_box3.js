@@ -1,88 +1,63 @@
 // MAINPAGE -> SPC BRAND 박스
 
 import View_all from '../../Component/Button/View_all';
+import uuid from 'react-uuid';
 
 import './Section_box3.css';
+import Tab_menu_li from './Section_box3/Tab_menu_li';
 
 function Section_box3() {
+
+    const tabMenuList = [
+        {key:uuid(), id:0, image:'bread_icon.png', text:'베이커리/디저트'},
+        {key:uuid(), id:1, image:'cafe_icon.png', text:'외식/다이닝'},
+        {key:uuid(), id:2, image:'dinner_icon.png', text:'카페/음료'},
+        {key:uuid(), id:3, image:'service_icon.png', text:'유통/서비스'}
+    ];
+
   return (
     <section id="section_box3">
-        <h1 class="blind">section_box3</h1>
-        <div class="container">
-            <div class="main_brand_wrap_01">
-                <div class="main_brand_text">
+        <h1 className="blind">section_box3</h1>
+        <div className="container">
+            <div className="main_brand_wrap_01">
+                <div className="main_brand_text">
                     <h2>spc brand</h2>
                     <p>spc그룹의 다양한 브랜드를 만나보세요.</p>
                 </div>
-                <div class="main_brand_tab">
+                <div className="main_brand_tab">
                     <ul>
-                        <li>
-                            <button type="button">
-                                <div class="tab_card">
-                                    <div class="tab_icon_00">
-                                        <span class="blind">베이커리/디저트 아이콘</span>
-                                    </div>
-                                    <p class="action">베이커리/디저트</p>
-                                </div>
-                            </button>
-                        </li>
-                        <li>
-                            <button type="button">
-                                <div class="tab_card">
-                                    <div class="tab_icon_01">
-                                        <span class="blind">외식/다이닝 아이콘</span>
-                                    </div>
-                                    <p>외식/다이닝</p>
-                                </div>
-                            </button>
-                        </li>
-                        <li>
-                            <button type="button">
-                                <div class="tab_card">
-                                    <div class="tab_icon_02">
-                                        <span class="blind">카페/음료 아이콘</span>
-                                    </div>
-                                    <p>카페/음료</p>
-                                </div>
-                            </button>
-                        </li>
-                        <li>
-                            <button type="button">
-                                <div class="tab_card">
-                                    <div class="tab_icon_03">
-                                        <span class="blind">유통/서비스 아이콘</span>
-                                    </div>
-                                    <p>유통/서비스</p>
-                                </div>
-                            </button>
-                        </li>
+                        {
+                            tabMenuList.map((data,index) =>
+                                <Tab_menu_li key={data.key} id={data.id} img={data.image} text={data.text} index={index}/>
+                            )
+                        }
                     </ul>
                 </div>
             </div>
-            <div class="main_brand_wrap_02">
-                <div class="prev_button"></div>
-                <div class="main_brand_card">
+            <div className="main_brand_wrap_02">
+                <div className="prev_button"></div>
+                <div className="main_brand_card">
                     <ul>
-                        <li class="card">
-                            <div class="card_image_01"><span class="blind">파리바게트 image</span></div>
+                        <li className="card">
+                            <div className="card_image_01"><span className="blind">파리바게트 image</span></div>
                         </li>
-                        <li class="card">
-                            <div class="card_image_02"><span class="blind">베스킨라빈스 image</span></div>
+                        <li className="card">
+                            <div className="card_image_02"><span className="blind">베스킨라빈스 image</span></div>
                         </li>
-                        <li class="card">
-                            <div class="card_image_03"><span class="blind">던킨 image</span></div>
+                        <li className="card">
+                            <div className="card_image_03"><span className="blind">던킨 image</span></div>
                         </li>
-                        <li class="card">
-                            <div class="card_image_04"><span class="blind">삽립 image</span></div>
+                        <li className="card">
+                            <div className="card_image_04"><span className="blind">삽립 image</span></div>
                         </li>
-                        <li class="card">
-                            <div class="card_image_05"><span class="blind">파리 크로아상 image</span></div>
+                        <li className="card">
+                            <div className="card_image_05"><span className="blind">파리 크로아상 image</span></div>
                         </li>
                     </ul>
                 </div>
-                <div class="next_button"></div>
+                <div className="next_button"></div>
             </div>
-            <div class="main_brand_wrap_03">
+            <div className="main_brand_wrap_03">
                 <View_all />
             </div>
         </div>

@@ -8,45 +8,45 @@ import './Section_box9.css';
 function Section_box9() {
     return (
         <section id="section_box9">
-            <h1 class="blind">section_box9</h1>
-            <div class="container">
-                <div class="main_sns_wrap_01">
-                    <div class="main_sns_text">
+            <h1 className="blind">section_box9</h1>
+            <div className="container">
+                <div className="main_sns_wrap_01">
+                    <div className="main_sns_text">
                         <h2>sns</h2>
                         <p>푸드 프렌트와 레시피, 다양한 이벤트를 만나보세요.</p>
                     </div>
-                    <div class="main_sns_view">
+                    <div className="main_sns_view">
                         <View_left />
                         <View_right />
                         <View_all />
                     </div>
                 </div>
-                <div class="main_sns_wrap_02">
-                    <div class="main_sns_card">
+                <div className="main_sns_wrap_02">
+                    <div className="main_sns_card">
                         <ul>
-                            <li class="card">
-                                <div class="outline">
-                                    <div class="card_image_01"><span class="blind">이미지</span></div>
+                            <li className="card">
+                                <div className="outline">
+                                    <div className="card_image_01"><span className="blind">이미지</span></div>
                                 </div>
                             </li>
-                            <li class="card">
-                                <div class="outline">
-                                    <div class="card_image_02"><span class="blind">이미지</span></div>
+                            <li className="card">
+                                <div className="outline">
+                                    <div className="card_image_02"><span className="blind">이미지</span></div>
                                 </div>
                             </li>
-                            <li class="card">
-                                <div class="outline">
-                                    <div class="card_image_03"><span class="blind">이미지</span></div>
+                            <li className="card">
+                                <div className="outline">
+                                    <div className="card_image_03"><span className="blind">이미지</span></div>
                                 </div>
                             </li>
-                            <li class="card">
-                                <div class="outline">
-                                    <div class="card_image_04"><span class="blind">이미지</span></div>
+                            <li className="card">
+                                <div className="outline">
+                                    <div className="card_image_04"><span className="blind">이미지</span></div>
                                 </div>
                             </li>
-                            <li class="card">
-                                <div class="outline">
-                                    <div class="card_image_05"><span class="blind">이미지</span></div>
+                            <li className="card">
+                                <div className="outline">
+                                    <div className="card_image_05"><span className="blind">이미지</span></div>
                                 </div>
                             </li>
                         </ul>
