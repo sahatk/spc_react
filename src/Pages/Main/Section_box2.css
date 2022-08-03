@@ -28,7 +28,7 @@
     /* background-color: transparent; */
 }
 
-/*SPC GROUP TEXT BOX*/
+
 .main_group_text {
     width: 100%;
     height: auto;
@@ -38,14 +38,14 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: 50px;
-}
+} /*SPC GROUP TEXT BOX*/
 
 .main_group_text h2 {
     width: 100%;
     height: auto;
     margin-bottom: 0.2rem;
 
-}
+} /*SPC GROUP TEXT BOX -> h2*/
 
 
 .main_group_text p {
@@ -59,12 +59,9 @@
     font-size: 20px;
 
 
-}
-
-/*SPC GROUP TEXT BOX*/
+} /*SPC GROUP TEXT BOX*/
 
 
-/* SPC GROUP CARD 박스 크기 및 위치 설정 */
 .main_group_card {
     display: flex;
     justify-content: space-between;
@@ -74,7 +71,7 @@
     margin-top: 1rem;
     box-sizing: border-box;
 
-}
+} /* SPC GROUP CARD 박스 크기 및 위치 설정 */
 
 .main_group_card ul {
     display: flex;
@@ -86,7 +83,7 @@
     background-color: transparent;
 
     flex-wrap: wrap;
-}
+} /* SPC GROUP CARD 박스 ul */
 
 .main_group_card li {
     display: flex;
@@ -100,47 +97,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 13px #ccc;
-}
-
-/*SPC GROUP 카드 오버시 배경*/
-.main_group_card .bg_01 {
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_01_hover.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.main_group_card .bg_02 {
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_02_hover.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.main_group_card .bg_03 {
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_03_hover.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.main_group_card .bg_04 {
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_04_hover.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}/*SPC GROUP 카드 오버시 배경*/
-
+} /* SPC GROUP CARD 박스 li */
 
 .main_group_card li .outline {
     position: relative;
     width: 300px;
     height: 400px;
 
-}
+} /* SPC GROUP CARD 박스 크기 및 위치 설정 */
 
-/* SPC GROUP CARD 박스 크기 및 위치 설정 */
-
-
-
-/* SPC GROUP CARD 제목 */
 .main_group_card .card_title{
     position: absolute;
     top: 0;
@@ -149,95 +114,15 @@
     color: #23afe3;
     font-weight: 700;
     text-transform: uppercase;
-}
+} /* SPC GROUP CARD 제목 */
 
-.main_group_card .card_title .none{
-    display: none;
-    overflow: hidden;
-}
-/* .main_group_card .card_title_02{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0px 0px 0px 30px;
-    color: #23afe3;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.main_group_card .card_title_03{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0px 0px 0px 30px;
-    color: #23afe3;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.main_group_card .card_title_04{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0px 0px 0px 30px;
-    color: #23afe3;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-*/
-
-/* SPC GROUP CARD 제목 */
-
-/* SPC GROUP CARD 이미지 */
 
 .main_group_card .outline .card_image {
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-}
+} /* SPC GROUP CARD 이미지 */
 
-/* .main_group_card .outline .none {
-   display: none;
-} */
-
-/* .main_group_card .none {
-    display: none;
-} */
-
-.main_group_card .outline .card_image_01 {
-    height: 400px;
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_01.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.main_group_card .outline .card_image_02 {
-    height: 400px;
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_02.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.main_group_card .outline .card_image_03 {
-    height: 400px;
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_03.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.main_group_card .outline .card_image_04 {
-    height: 400px;
-    background-image: url(../../../public/img/main_img/section_box2/group_bg_04.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-/* SPC GROUP CARD 이미지 */
-
-
-
-/* SPC GROUP CARD 설명 */
 .main_group_card .card_text {
     position: absolute;
     bottom: 0;
@@ -247,50 +132,6 @@
     font-weight: 700;
     word-break: keep-all;
     padding: 0 0 0 30px;
-}
-
-
-.main_group_card .card_text_01 {
-    position: absolute;
-    width: 300px;
-
-    bottom: 0;
-    left: 0;
-    margin: 0px 0px 30px 40px;
-    font-weight: 700;
-    word-break: keep-all;
-}
-
-.main_group_card .card_text_02 {
-    position: absolute;
-    width: 300px;
-
-    bottom: 0;
-    left: 0;
-    margin: 0px 0px 30px 40px;
-    font-weight: 700;
-}
-
-.main_group_card .card_text_03 {
-    position: absolute;
-    width: 300px;
-
-    bottom: 0;
-    left: 0;
-    margin: 0px 0px 10px 40px;
-    font-weight: 700;
-}
-
-.main_group_card .card_text_04 {
-    position: absolute;
-    width: 300px;
-
-    bottom: 0;
-    left: 0;
-    margin: 0px 0px 10px 40px;
-    font-weight: 700;
-}
-
-/* SPC GROUP CARD 설명 */
+} /* SPC GROUP CARD 설명 */
 
 /*section_box2 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

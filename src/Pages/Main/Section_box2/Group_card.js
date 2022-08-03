@@ -14,13 +14,16 @@ function Group_card(props) {
 // })
 
     return (
-        <li class="card"  onMouseEnter={handlerOver} onMouseLeave={handlerOut} style={display === 'none' ? {backgroundImage:`url(${props.hoverImg})`} : null}
+        <li class="card"  
+        onMouseEnter={handlerOver} 
+        onMouseLeave={handlerOut} 
+        style={display === 'none' ? {backgroundImage:`url(${process.env.PUBLIC_URL}img/main_img/section_box2/${props.img}_hover.jpg)`} : null}
         // onMouseOut={handlerOut}
         >
             <div class="outline">
                 <div className="card_title">{display === 'none' ? null : props.title }</div>
                 <div className="card_image" 
-                    style={display === 'none' ? null : {backgroundImage:`url(${props.img})` }}>
+                    style={display === 'none' ? null : {backgroundImage:`url(${process.env.PUBLIC_URL}img/main_img/section_box2/${props.img}.png)`}}>
                     <span class="blind">이미지</span>
                 </div>
                 <div class="card_text">
