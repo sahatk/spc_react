@@ -1,9 +1,9 @@
 // MAINPAGE -> SPC NEWS 박스
 
-import View_all from '../../Component/View_all';
-import View_more from '../../Component/View_more';
-import View_left from '../../Component/View_left';
-import View_right from '../../Component/View_right';
+import View_all from '../../Component/Button/View_all';
+import View_more from '../../Component/Button/View_more';
+import View_left from '../../Component/Button/View_left';
+import View_right from '../../Component/Button/View_right';
 
 
 import './Section_box6.css';

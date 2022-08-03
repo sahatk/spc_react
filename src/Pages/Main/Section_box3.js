@@ -1,6 +1,6 @@
 // MAINPAGE -> SPC BRAND 박스
 
-import View_all from '../../Component/View_all';
+import View_all from '../../Component/Button/View_all';
 
 import './Section_box3.css';
 

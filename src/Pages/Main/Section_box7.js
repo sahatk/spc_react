@@ -2,7 +2,7 @@
 
 import './Section_box7.css';
 
-import View_all from '../../Component/View_all';
+import View_all from '../../Component/Button/View_all';
 
 function Section_box7() {
   return (

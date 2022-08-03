@@ -72,31 +72,25 @@
 } /* 배경 슬라이드 전체 영역 */
 
 #section_box1 .view_area ul {
-    position: relative; left:0; top:0;
-    width: calc(100% * 5); height:100%; background-color: #ddd;
-    margin-left: -100%;
-    display: flex;
+    position: relative; 
+    width: 100%; height: 100%;
 } /* 배경 슬라이드 전체 영역 ul */
 
-.view_area .transition_show{
-    transition: all 500ms linear;
-} /* 배경 슬라이드 트랜지션*/
-
-.view_area .transition_none{
-    transition: none;
-} /* 배경 슬라이드 트랜지션 none*/
-
 .view_area li{
-    width: calc(100% / 5); height: 100%;
-    text-align: center;
-    line-height: 600px;
-    font-size: 2rem; font-weight: 700;
+    opacity: 0;
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+    box-sizing: border-box;
+    padding:2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition:opacity 200ms linear;
 } /* 배경 이미지 li */
 
-.view_area li.main_view_01{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_01.jpg'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
-.view_area li.main_view_02{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_02.png'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
-.view_area li.main_view_03{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_03.png'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
-.view_area li.main_view_04{background-image: url('../../../public/img/main_img/section_box1/main_bg_wrap/main_slide_04.jpg'); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.view_area li.action{
+    opacity: 1;
+}
 
 /*//////////////추가한 항목 슬라이드 2022-07-18 /////////////////*/
 

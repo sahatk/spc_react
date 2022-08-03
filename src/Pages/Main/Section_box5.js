@@ -1,6 +1,6 @@
 // MAINPAGE -> SPC HAPPYPOINT 박스
-import View_all from '../../Component/View_all';
-import Buy from '../../Component/Buy';
+import View_all from '../../Component/Button/View_all';
+import Buy from '../../Component/Button/Buy';
 
 import './Section_box5.css';
 
