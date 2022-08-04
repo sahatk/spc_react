@@ -26,43 +26,43 @@ function FooterBox() {
                             Copyright SPC All rights reserverd.
                     </address>
                 </div>
-                <div class="main_footer_icon_wrap">
+                <div className="main_footer_icon_wrap">
                 <ul>
                     <li>
-                        <span class="blind">happy point</span>
-                        <div class="icon_image_box">
-                            <div class="happypoint_icon icon"></div>
+                        <span className="blind">happy point</span>
+                        <div className="icon_image_box">
+                            <div className="happypoint_icon icon"></div>
                         </div>
-                        <div class="icon_text">
-                            <p class="font_18">happypoint</p>
+                        <div className="icon_text">
+                            <p className="font_18">happypoint</p>
                         </div>
                     </li>
                     <li>
-                        <span class="blind">instagram</span>
-                        <div class="icon_image_box">
-                            <div class="icon instagram_icon ">
+                        <span className="blind">instagram</span>
+                        <div className="icon_image_box">
+                            <div className="icon instagram_icon ">
                             </div>
                         </div>
-                        <div class="icon_text">
-                            <p class="font_18">instagram</p>
+                        <div className="icon_text">
+                            <p className="font_18">instagram</p>
                         </div>
                     </li>
                     <li>
-                        <span class="blind">facebook</span>
-                        <div class="icon_image_box">
-                            <div class="facebook_icon icon"></div>
+                        <span className="blind">facebook</span>
+                        <div className="icon_image_box">
+                            <div className="facebook_icon icon"></div>
                         </div>
-                        <div class="icon_text">
-                            <p class="font_18">facebook</p>
+                        <div className="icon_text">
+                            <p className="font_18">facebook</p>
                         </div>
                     </li>
                     <li>
-                        <span class="blind">youtube</span>
-                        <div class="icon_image_box">
-                            <div class="youtube_icon icon"></div>
+                        <span className="blind">youtube</span>
+                        <div className="icon_image_box">
+                            <div className="youtube_icon icon"></div>
                         </div>
-                        <div class="icon_text">
-                            <p class="font_18">youtube</p>
+                        <div className="icon_text">
+                            <p className="font_18">youtube</p>
                         </div>
                     </li>
                 </ul>
