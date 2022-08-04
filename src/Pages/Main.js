@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ContainerApp from '../Component/ContainerApp';
 import Section_box1 from './Main/Section_box1';
 import Section_box2 from './Main/Section_box2';
@@ -16,6 +17,7 @@ function Main() {
   return (
     <div>
       {/* Main */}
+      
       <ContainerApp>
         <Section_box1></Section_box1>
       </ContainerApp>

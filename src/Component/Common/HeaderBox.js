@@ -9,25 +9,48 @@ import './HeaderBox.css';
 function HeaderBox() {
   const menuList = [
     { id: uuid(), link: 'SPC_Group/Ceo', text: 'spc_group' },
-    { id: uuid(), link: 'SPC_Group/Spc_way', text: 'BUSINESS' },
-    { id: uuid(), link: 'Business/Global', text: 'MEDIA HUB' },
-    { id: uuid(), link: 'Business/Subsidiary', text: 'ESG' },
-    { id: uuid(), link: 'Media_Hub/FamilyChannel', text: 'CAREERS' },
-    { id: uuid(), link: 'Media_Hub/Magazine', text: 'CONTACT' },
+    { id: uuid(), link: 'Business/Global', text: 'BUSINESS' },
+    { id: uuid(), link: 'Media_Hub/FamilyChannel', text: 'MEDIA HUB' },
+    { id: uuid(), link: '#', text: 'ESG' },
+    { id: uuid(), link: '#', text: 'CAREERS' },
+    { id: uuid(), link: '#', text: 'CONTACT' },
   ];
 
-  const spc_groupList = [
-    { id: uuid(), link: 'SPC_Group/Ceo', text: 'CEO 인사말' },
-    { id: uuid(), link: 'SPC_Group/Spc_way', text: 'SPC WAY' },
-    { id: uuid(), link: '#', text: '연혁' },
-    { id: uuid(), link: '#', text: 'CI' },
-  ];
-
-  const businessList = [
-    { id: uuid(), link: 'SPC_Group/Global', text: '글로벌' },
-    { id: uuid(), link: 'SPC_Group/Subsidiary', text: '계열사' },
-    { id: uuid(), link: '#', text: '브랜드' },
-    { id: uuid(), link: '#', text: 'r&d' },
+  const subMenuList = [
+    [
+      { id: uuid(), link: 'SPC_Group/Ceo', text: 'CEO 인사말' },
+      { id: uuid(), link: 'SPC_Group/Spc_way', text: 'SPC WAY' },
+      { id: uuid(), link: '#', text: '연혁' },
+      { id: uuid(), link: '#', text: 'CI' }
+    ],
+    [
+      { id: uuid(), link: 'Business/Global', text: '글로벌' },
+      { id: uuid(), link: 'Business/Subsidiary', text: '계열사' },
+      { id: uuid(), link: '#', text: '브랜드' },
+      { id: uuid(), link: '#', text: 'r&d' }
+    ],
+    [
+      { id: uuid(), link: 'Media_Hub/FamilyChannel', text: '패밀리채널' },
+      { id: uuid(), link: 'Media_Hub/News', text: '뉴스' },
+      { id: uuid(), link: 'Media_Hub/Magazine', text: 'SPC매거진' },
+      { id: uuid(), link: 'Media_Hub/SNS', text: 'SNS' },
+      { id: uuid(), link: 'Media_Hub/Youtube', text: '유튜브' },
+      { id: uuid(), link: 'Media_Hub/CF', text: 'CF' }
+    ],
+    [
+      { id: uuid(), link: '#', text: 'SPC행복한재단' },
+      { id: uuid(), link: '#', text: '사회공헌 소개' },
+      { id: uuid(), link: '#', text: '사회공헌 소식' },
+      { id: uuid(), link: '#', text: '정도경영' }
+    ],
+    [
+      { id: uuid(), link: '#', text: '인재채용' },
+      { id: uuid(), link: '#', text: '인재양성' }
+    ],
+    [
+      { id: uuid(), link: '#', text: '창업정보' },
+      { id: uuid(), link: '#', text: '오시는길' }
+    ]
   ];
 
   const prevScrollpos = window.pageYOffset;
@@ -51,9 +74,9 @@ function HeaderBox() {
     } else {
       headerBox.style.backgroundColor = 'transparent';
       headerLi.forEach(el => {
-        el.style = style2;
+        el.style = style1;
       });
-      headerLi[6].style = global_white;
+      headerLi[6].style = global_black;
     }
   }
 
@@ -73,31 +96,121 @@ function HeaderBox() {
           <h2 className='blind'>navigation</h2>
           <div className="menu_hover_box"></div>
           <ul className="main_menu">
-            {
-              menuList.map(
-                list =>
-                  <li key={list.id} className='main_li'>
-                    <NavLink to={list.link}>
-                      {list.text}
-                    </NavLink>
-                    <div className='sub_menu_box'>
-                      <ul className='sub_menu sub_menu_01'>
-                        {
-                          spc_groupList.map(
-                            list =>
-                              <li key={list.id}>
-                                <NavLink to={list.link}>
-                                  {list.text}
-                                </NavLink>
-                              </li>
-                          )
-                        }
-                      </ul>
-                    </div>
-                  </li>
-              )
-            }
-            <li className="main_li"><span className="blind">language</span></li>
+              <li className='main_li'>
+                  <NavLink to={menuList[0].link}>
+                    {menuList[0].text}
+                  </NavLink>
+                  <div className='sub_menu_box'>
+                    <ul className='sub_menu sub_menu_01'>
+                      {
+                        subMenuList[0].map(
+                          list =>
+                          <li key={list.id}>
+                            <NavLink to={list.link}>
+                              {list.text}
+                            </NavLink>
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </div>
+              </li>
+              <li className='main_li'>
+                  <NavLink to={menuList[1].link}>
+                    {menuList[1].text}
+                  </NavLink>
+                  <div className='sub_menu_box'>
+                    <ul className='sub_menu sub_menu_01'>
+                      {
+                        subMenuList[1].map(
+                          list =>
+                          <li key={list.id}>
+                            <NavLink to={list.link}>
+                              {list.text}
+                            </NavLink>
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </div>
+              </li>
+              <li className='main_li'>
+                  <NavLink to={menuList[2].link}>
+                    {menuList[2].text}
+                  </NavLink>
+                  <div className='sub_menu_box'>
+                    <ul className='sub_menu sub_menu_01'>
+                      {
+                        subMenuList[2].map(
+                          list =>
+                          <li key={list.id}>
+                            <NavLink to={list.link}>
+                              {list.text}
+                            </NavLink>
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </div>
+              </li>
+              <li className='main_li'>
+                  <NavLink to={menuList[3].link}>
+                    {menuList[3].text}
+                  </NavLink>
+                  <div className='sub_menu_box'>
+                    <ul className='sub_menu sub_menu_01'>
+                      {
+                        subMenuList[3].map(
+                          list =>
+                          <li key={list.id}>
+                            <NavLink to={list.link}>
+                              {list.text}
+                            </NavLink>
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </div>
+              </li>
+              <li className='main_li'>
+                  <NavLink to={menuList[4].link}>
+                    {menuList[4].text}
+                  </NavLink>
+                  <div className='sub_menu_box'>
+                    <ul className='sub_menu sub_menu_01'>
+                      {
+                        subMenuList[4].map(
+                          list =>
+                          <li key={list.id}>
+                            <NavLink to={list.link}>
+                              {list.text}
+                            </NavLink>
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </div>
+              </li>
+              <li className='main_li'>
+                  <NavLink to={menuList[5].link}>
+                    {menuList[5].text}
+                  </NavLink>
+                  <div className='sub_menu_box'>
+                    <ul className='sub_menu sub_menu_01'>
+                      {
+                        subMenuList[5].map(
+                          list =>
+                          <li key={list.id}>
+                            <NavLink to={list.link}>
+                              {list.text}
+                            </NavLink>
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </div>
+              </li>
+              <li className="main_li"><span className="blind">language</span></li>
 
             {/* <li className="main_li">
               <a href="pages/spc_group/spc_ceo.html">spc group</a>

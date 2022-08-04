@@ -1,8 +1,13 @@
 import React from 'react'
+import Ceo_box from './Ceo/Ceo_box'
+
 
 function Ceo() {
   return (
-    <div>Ceo</div>
+    <div>
+      <Ceo_box/>
+    </div>
+
   )
 }
 

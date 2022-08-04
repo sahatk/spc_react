@@ -72,7 +72,7 @@
 #header_box .header_nav .main_li {
     width: auto;
     height: auto;
-    color: #fff;
+    color: #000000;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -86,7 +86,7 @@
 #header_box .header_nav .main_li:last-child {
     width: 30px;
     height: 30px;
-    background: url(../../../public/img/main_img/header_box/global_icon.png) no-repeat center center / contain;
+    background: url(../../../public/img/main_img/header_box/global_icon_black.png) no-repeat center center / contain;
 } /* 내비게이션 바 메인 메뉴 global 로고 */
 
 #header_box .header_nav .main_li:last-child:hover {

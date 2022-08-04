@@ -1,0 +1,106 @@
+@import '../../../common/variable.css';
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+
+/* ceo.css */
+#ceo_box {
+    width: 1600px;
+    height: 1300px;
+    margin: 0 auto;
+}
+
+#ceo_box .container{
+    width: 1600px;
+    height: 1300px;
+}
+
+#ceo_box .ceo_title {
+    width: 90%;
+    max-width: 1550px;
+    height: auto;
+    padding: 130px 50px 100px;
+    margin: 0 auto;
+}
+
+#ceo_box .ceo_title h2 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+#ceo_box .ceo_title .desc {
+    font-size: 18px;
+    color: #7d7d7d;
+}
+
+.ceo_content {
+    width: 90%;
+    height: 870px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.ceo_content::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -250px;
+    width: 610px;
+    height: 867px;
+    background-color: #d1ebfa;
+    border-radius: 0 40px 0 0;
+}
+
+.ceo_image {
+    width: 500px; height: 590px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../../../../public/img/spc_ceo_img/curves-4.png);
+}
+
+.ceo_content .img_wrap {
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 10;
+    position: absolute;
+    left: 00px;
+    top: 50px;
+    margin-right: 200px;
+}
+
+.main_text {
+    width: 900px;
+    float: right;
+    padding-top:50px;
+}
+
+.main_text p {
+    font-size: 1.16rem;
+    font-weight: 600;
+    margin-bottom: 59px;
+}
+
+/* sign_warp */
+
+.ceo_sign_wrap {
+    display: flex; gap: 30px; justify-content: flex-start;
+}
+
+.main_text .ceo_sign {
+    color: #adadad;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.sign_warp img {
+    margin-left: 40px;
+}
+
+.ceo_sign_image{
+    width: 130px; height: 42px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../../../../public/img/spc_ceo_img/spc-ceo-signature.png);
+}
