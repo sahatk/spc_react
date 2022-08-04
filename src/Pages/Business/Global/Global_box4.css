@@ -1,0 +1,72 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/* 나라별 카드 박스 */
+
+/*Global_box4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#Global_box4 {
+    /* position: relative; */
+    display: flex; align-items: center;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* background-color: green; */
+    /* background-color: transparent; */
+}
+
+#Global_box4 .container {
+    /* position: relative; */
+    
+    width: 1440px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 1000px;
+    margin: auto;
+    /* background-color: yellowgreen; */
+    /* background-color: transparent; */
+}
+
+#Global_box4 .container .spc_global_card{
+    display: flex; align-items: center;
+    width: 1440px;
+    height: 1000px;
+    box-sizing: border-box;
+    padding: 0 100px; 
+}
+
+#Global_box4 .card_ul {
+    display: flex; gap:80px;
+}
+
+#Global_box4 .card {
+    display: flex; align-items: center; justify-content: center;
+    width: 250px;
+    height: 620px;
+   
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+}
+
+#Global_box4 .card_ul p{
+    color: #ffffff;
+}
+
+#Global_box4 .card_01{
+    background-image: url(../../../../public/img/spc_global_img/global-china.png);
+}
+#Global_box4 .card_02{
+    background-image: url(../../../../public/img/spc_global_img/global-north-america.png);
+}
+#Global_box4 .card_03{
+    background-image: url(../../../../public/img/spc_global_img/global-south-eastasia.png);
+}
+#Global_box4 .card_04{
+    background-image: url(../../../../public/img/spc_global_img/global-france.jpg);
+}
+
+/*Global_box4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

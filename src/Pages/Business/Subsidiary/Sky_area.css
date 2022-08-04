@@ -1,0 +1,13 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/*sky_area //////////////////////////////////////////////////////////////////////////////////////////*/
+#sky_area {
+    background-color: #d1ebfa; 
+    position: absolute; z-index: 50;
+    left:0;
+    top: 0;
+    width: 28.5%;
+    height: 3300px;
+}

@@ -1,0 +1,53 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/* 지도 이미지 박스 */
+
+/*Global_box3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@keyframes fade {
+    0% {
+      background-color: green;
+    }
+    50%{
+      background-color: greenyellow;
+    }
+    100% {
+      background-color: yellowgreen
+    }
+  }
+
+#Global_box3 {
+    /* position: relative; */
+    display: flex; align-items: center;
+    width: 100%;
+    height: 860px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* background-color: transparent; */
+}
+
+#Global_box3 .container {
+    /* position: relative; */
+    
+    width: 1440px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 860px;
+    margin: auto;
+    animation: fade 5s infinite;
+    /* background-color: transparent; */
+}
+
+#Global_box3 .container .map_image {
+    width: 1440px;
+    height: 860px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../../../../public/img/spc_global_img/global-map.png');
+}
+
+/*Global_box3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

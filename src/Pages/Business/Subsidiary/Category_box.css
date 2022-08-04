@@ -1,0 +1,82 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/* 카테고리 박스 */
+
+/*category_box///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#category_box{
+    position: fixed; left:10%; top:20%; z-index: 50;
+    width: 420px; height: 510px;
+    /* background-color: #ccc; */
+} /*카테고리 전체 박스*/
+
+#category_box .category_title{
+    height: 60px;
+    margin-bottom: 30px;
+}/*카테고리 title : SPC 계열사*/
+
+#category_box .category_menu{
+    width: 420px; height: 420px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 13px #ddd;
+} /*카테고리 메뉴 박스 */
+
+#category_box .category_ul{
+    width: 380px; 
+    height: 380px;
+    padding: 25px 30px;
+    /* background-color: #ccc; */
+} /*카테고리 메뉴 ul */
+
+#category_box .category_li_title a{
+    width: 320px; height: 60px; text-transform: uppercase;
+    position: relative;
+    display: flex; align-items: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    cursor: pointer;
+} /*카테고리 메뉴 li 타이틀 : ALL SUBSIDIARY */
+
+#category_box .category_li a{
+    width: 320px; height: 60px;
+    position: relative;
+    display: flex; align-items: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+} /*카테고리 메뉴 li 들 */
+
+#category_box .category_li a:hover{
+    color: #23afe3;
+    transition: all 0.5s ease;
+} /*카테고리 메뉴 li 들 hover */
+
+
+#category_box .category_li_title a::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 40px;
+    background: url('https://api.iconify.design/akar-icons/chevron-right.svg') no-repeat center center / contain;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top:-25px;
+} /*카테고리 메뉴 li 타이틀 button(>) */
+
+#category_box .category_li a::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 40px;
+    background: url('https://api.iconify.design/akar-icons/plus.svg') no-repeat center center / contain;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top:-20px;
+} /*카테고리 메뉴 li들 button(+) */
+
+/*category_box/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
