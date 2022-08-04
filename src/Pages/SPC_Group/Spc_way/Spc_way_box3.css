@@ -1,0 +1,64 @@
+@import '../../../common/variable.css';
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+
+/*상미당 소개1 박스*/
+
+/*section_box3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#Spc_way_box3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    /* background-color: #d3d3d3; */
+    background-color: transparent;
+}
+
+#Spc_way_box3 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    max-width: 1920px;
+    min-width: 300px;
+    height: 350px;
+    margin: auto;
+    /* background-color: #f8f8f8; */
+    background-color: transparent;
+}
+
+.sangmidang_wrap {
+    display: flex;
+    width: 1350px;
+    height: 300px;
+    /* background-color: #e34; */
+}
+
+.sangmidang_image{
+    width: 470px;
+    height: 300px;
+    background-image: url(../../../../public/img/spc_way_img/section_box3/spc-way-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} /* 상미당 이미지*/
+
+.sangmidang_text{
+    width: 880px;
+    height: 300px;
+    box-sizing: border-box;
+    /* background-color: #e3f; */
+    padding: 0px 30px;
+} /*상미당 설명*/
+
+.sangmidang_text p{
+    width: 880px;
+    height: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+}
+/*section_box3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

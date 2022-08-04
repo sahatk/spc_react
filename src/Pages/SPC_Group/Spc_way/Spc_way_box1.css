@@ -1,0 +1,58 @@
+@import '../../../common/variable.css';
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+
+/* SPC WAY TITLE 박스*/
+
+/*section_box1///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#spc_way_box1 {
+    /* position: relative; */
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 80px;
+    /* background-color: transparent; */
+}
+
+#spc_way_box1 .container {
+    /* position: relative; */
+    display: flex; align-items: center;
+    width: 1440px;
+    /* width: 100%; */
+    max-width: 1920px;
+    min-width: 300px;
+    height: 300px;
+    margin: auto;
+    /* background-color: transparent; */
+}
+
+/*SPC_WAY_text_wrap*/
+#spc_way_box1 .spc_way_text_wrap_01 {
+    width: 100%;
+    height: 250px;
+    padding: 50px 0;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 64px;
+    box-sizing: border-box;
+}
+
+#spc_way_box1 .spc_way_text_wrap_01 h2 {
+    width: 100%;
+    height: auto;
+}/*SPC WAY*/
+
+
+#spc_way_box1 .spc_way_text_wrap_01 p {
+    width: 100%;
+    height: auto;
+    
+    color: #4b4b4b;
+    font-weight: 400;
+    font-size: 20px;
+}/*건강과 행복 추구로 전 세계인에게 사랑받는 spc그룹이 되겠습니다.*/
+
+/*section_box1///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

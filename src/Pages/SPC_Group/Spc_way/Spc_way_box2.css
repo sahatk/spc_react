@@ -1,0 +1,15 @@
+@import '../../../common/variable.css';
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+
+/* 상미당 배경 이미지 박스*/
+
+/* 배너 이미지 (상미당 bg)*/
+#Spc_way_box2 {
+    width: 100%;
+    height: 683px;
+    background-image: url(../../../../public/img/spc_way_img/section_box2/sanmidang_bg.jpg);
+    background-repeat: no-repeat;
+    /* background-position:center; */
+    background-size:cover;
+}

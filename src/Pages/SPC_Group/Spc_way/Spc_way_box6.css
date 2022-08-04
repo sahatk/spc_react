@@ -1,0 +1,204 @@
+@import '../../../common/variable.css';
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+
+/*경영철학, 비전, 핵심가치 카드 박스*/
+
+/*Spc_way_box6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#Spc_way_box6 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    /* background-color: #666; */
+    background: linear-gradient(#ffffff, #edf6fb);
+}
+
+#Spc_way_box6 .container {
+    width: 1440px;
+    max-width: 1920px;
+    min-width: 300px;
+    height: 1040px;
+    margin: 0 auto;
+    /* background-color: #dddddd; */
+    background-color: transparent;
+}
+
+/*카드 */
+#Spc_way_box6 .card_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1340px;
+    height: 400px;
+    margin: 0 auto;
+    /* background-color: #5f7e6b; */
+    background-color: transparent;
+} /*카드 박스 */
+
+#Spc_way_box6 .card_box .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 610px;
+    height: 310px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 13px #ccc;
+} /*카드 */
+
+.card_box .card .outline{
+    
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center;
+    /* background-color: red; */
+    background-color: transparent;
+} /* 카드 안쪽 박스*/
+
+.card_box .card .card_title{
+    width: 120px;
+    height: 40px;
+    margin: 30px auto;
+    background-color: #1ca3df;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+} /*경영철학, 비전*/
+
+.card_box .card .card_text_01{
+    text-transform: uppercase;
+} /*카드 텍스트*/
+
+.card_box .card_ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+} /*카드 */
+
+/* 트리 */
+#Spc_way_box6 .tree_box {
+    width: 1440px;
+    height: 600px;
+    margin: 40px auto;
+    /* background-color: #53599c; */
+    background-color: transparent;
+}/*트리 박스*/
+
+#Spc_way_box6 .tree_box .tree_wrap_01{
+    display: flex; justify-content: center;
+    width: 100%;
+    height: 320px;
+    padding-bottom: 20px;
+} /* 트리 텍스트*/
+
+#Spc_way_box6 .tree_box .tree_title{
+    width: 120px;
+    height: 40px;
+    background-color: #1ca3df;
+    border-radius: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+    margin-bottom: 30px;
+} /* 트리 제목*/
+
+.tree_box .tree_wrap_01 .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 610px;
+    height: 310px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 13px #ccc;
+} /* tree 카드 */
+
+.tree_box .tree_wrap_01 .outline{
+    
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center;
+    /* background-color: red; */
+    background-color: transparent;
+} /* tree 카드 안쪽 박스*/
+
+.tree_box .tree_wrap_01 .card_title{
+    width: 120px;
+    height: 40px;
+    margin: 30px auto;
+    background-color: #1ca3df;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+} /* tree 핵심가치*/
+
+.tree_box .card .card_text_01{
+    text-transform: uppercase;
+} /* tree 카드 텍스트*/
+
+
+#Spc_way_box6 .tree_box .tree_arrow_image {
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url(../../../../public/img/spc_way_img/section_box6/spc-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} /* 트리 화살표 이미지*/
+/*tree_wrap_01 끝*/
+
+/*tree_wrap_02 */
+.tree_box .tree_wrap_02{
+    width: 100%;
+    height: 200px;
+}
+
+.tree_box .tree_wrap_02 .card_ul{
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+}
+
+.tree_box .tree_wrap_02 .card {
+    width: 390px;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 13px #ccc;
+}
+
+.tree_box .tree_wrap_02 .outline{
+    width: 380px;
+}
+
+.tree_wrap_02 .card span{
+    text-transform: uppercase;
+}
+
+.tree_wrap_02 .tree_card_title{
+    padding: 30px 0 0 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tree_wrap_02 .tree_card_text{
+    padding: 20px 0 0 0px;
+    text-align: center;
+}
+
+/*Spc_way_box6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

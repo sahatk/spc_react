@@ -5,33 +5,6 @@ import './FooterBox.css';
 function FooterBox() {
   return (
     <footer id='footer_box'>
-      <div className='main_footer_wrap_01'>
-                <div className="main_footer_icon">
-                    <ul>
-                        <li className="prev_button">
-                            <div className="card_image_01"><span className="blind">prev 버튼</span></div>
-                        </li>
-                        <li className="icon_01">
-                            <div className="card_image_02"><span className="blind">SPC SAMLIP</span></div>
-                        </li>
-                        <li className="icon_02">
-                            <div className="card_image_03"><span className="blind">SPC PACK</span></div>
-                        </li>
-                        <li className="icon_03">
-                            <div className="card_image_04"><span className="blind">SPC LOGISTICS</span></div>
-                        </li>
-                        <li className="icon_04">
-                            <div className="card_image_05"><span className="blind">SPC FPS</span></div>
-                        </li>
-                        <li className="icon_01">
-                            <div className="card_image_05"><span className="blind">SPC SAMLIP</span></div>
-                        </li>
-                        <li className="next_button">
-                            <div className="card_image_05"><span className="blind">next 버튼</span></div>
-                        </li>
-                    </ul>
-                </div>
-      </div>
       <div className="main_footer_wrap_02">
                 <div className="main_footer_logo">
                     <h1>
@@ -53,27 +26,47 @@ function FooterBox() {
                             Copyright SPC All rights reserverd.
                     </address>
                 </div>
-                <div className="main_footer_icon_wrap">
-                    <ul>
-                        <li>
-                            <span className="blind">happy point</span>
-                            <div className="icon_image"></div>
-                            <div className="icon_text font_18">happypoint</div>
-                        </li>
-                        <li>
-                            <span className="blind">instagram</span>
-                            <div className="icon_text font_18">instagram</div>
-                        </li>
-                        <li>
-                            <span className="blind">facebook</span>
-                            <div className="icon_text_facebook font_18">facebook</div>
-                        </li>
-                        <li>
-                            <span className="blind">youtube</span>
-                            <div className="icon_text font_18">youtube</div>
-                        </li>
-                    </ul>
-                </div>
+                <div class="main_footer_icon_wrap">
+                <ul>
+                    <li>
+                        <span class="blind">happy point</span>
+                        <div class="icon_image_box">
+                            <div class="happypoint_icon icon"></div>
+                        </div>
+                        <div class="icon_text">
+                            <p class="font_18">happypoint</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="blind">instagram</span>
+                        <div class="icon_image_box">
+                            <div class="icon instagram_icon ">
+                            </div>
+                        </div>
+                        <div class="icon_text">
+                            <p class="font_18">instagram</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="blind">facebook</span>
+                        <div class="icon_image_box">
+                            <div class="facebook_icon icon"></div>
+                        </div>
+                        <div class="icon_text">
+                            <p class="font_18">facebook</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="blind">youtube</span>
+                        <div class="icon_image_box">
+                            <div class="youtube_icon icon"></div>
+                        </div>
+                        <div class="icon_text">
+                            <p class="font_18">youtube</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
       </div>
       <div className="main_footer_wrap_03">
                 <div className="main_family_site">

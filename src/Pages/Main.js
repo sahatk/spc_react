@@ -9,6 +9,7 @@ import Section_box6 from './Main/Section_box6';
 import Section_box7 from './Main/Section_box7';
 import Section_box8 from './Main/Section_box8';
 import Section_box9 from './Main/Section_box9';
+import Section_box10 from './Main/Section_box10';
 
 
 function Main() {
@@ -49,6 +50,10 @@ function Main() {
 
       <ContainerApp>
         <Section_box9></Section_box9>
+      </ContainerApp>
+
+      <ContainerApp>
+        <Section_box10></Section_box10>
       </ContainerApp>
  
     </div>
