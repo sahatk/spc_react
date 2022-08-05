@@ -4,7 +4,7 @@ import './News_box2.css';
 
 function News_box2() {
   return (
-    <section id="section_box2">
+    <section id="News_box2">
         <h1 className="blind">LIVE 보도자료 BOX</h1>
         <div className="container">
             <div className="livenews_title"><p className="font_50">live 보도자료</p></div>
