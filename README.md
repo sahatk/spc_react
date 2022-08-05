@@ -1,4 +1,4 @@
-# spc_react
+# SPC_REACT
 
 SPC HOMEPAGE git 주소 : https://github.com/sahatk/spc_homepage  <br/>
 
