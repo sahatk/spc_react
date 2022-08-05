@@ -15,8 +15,6 @@ SPC HOMEPAGE(react) git 주소 : https://github.com/sahatk/spc_react
 SPC HOMEPAGE(react) VERCEL : https://spc-react-nu.vercel.app/  
 
 <hr/>
-<hr/>
-<hr/>
 
 6월 24일 
 
@@ -25,18 +23,14 @@ SPC HOMEPAGE(react) VERCEL : https://spc-react-nu.vercel.app/
 피그마 : https://www.figma.com/file/HrhSHa7B6rnVdCVexhadpV/spc%EA%B7%B8%EB%A3%B9-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0
 
 
-
-
+<hr/>
 
 7월 1일 
 메인페이지 
 
 HTML,CSS : 완료
 
-
-
-
-
+<hr/>
 
 7월 8일 
 
@@ -46,9 +40,7 @@ HTML,CSS : 완료
 
 HTML,CSS : 완료
 
-
-
-
+<hr/>
 
 7월 15일 
 
@@ -58,10 +50,7 @@ HTML,CSS : 완료
 
 HTML,CSS : 완료
 
-
-
-
-
+<hr/>
 
 7월 22일 
 
@@ -71,6 +60,7 @@ HTML,CSS : 완료
 
 HTML,CSS : 완료,
 
+<hr/>
 
 서브페이지 -> MEDIA HUB -> 패밀리채널
 
@@ -78,7 +68,7 @@ HTML,CSS : 완료,
 
 HTML,CSS : 완료
 
-
+<hr/>
 
 7월 29일 
 
@@ -94,6 +84,7 @@ SNS 피그마 : https://www.figma.com/file/X9vYDmbXGtrAkqyqdhkXBz/spc_mediahub_s
 
 HTML,CSS : 모두 완료
 
+<hr/>
 
 8월 5일 
 
