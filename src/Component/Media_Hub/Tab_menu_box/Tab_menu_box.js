@@ -15,8 +15,8 @@ import "./Tab_menu_box.css";
 function Tab_menu_box() {
   const subMenuList = [
     { id: uuid(), link:"/Media_Hub/FamilyChannel", text: '패밀리채널', page:<FamilyChannel/>},
-    { id: uuid(), link:"/Media_Hub/Magazine", text: '뉴스' , page:<Magazine/>},
-    { id: uuid(), link:"/Media_Hub/News", text: 'SPC매거진' , page:<News/>},
+    { id: uuid(), link:"/Media_Hub/News", text: '뉴스' , page:<News/>},
+    { id: uuid(), link:"/Media_Hub/Magazine", text: 'SPC매거진' , page:<Magazine/>},
     { id: uuid(), link:"/Media_Hub/SNS", text: 'SNS' , page:<SNS/>},
     { id: uuid(), link:"/Media_Hub/Youtube", text: '유튜브' , page:<Youtube/>},
     { id: uuid(), link:"/Media_Hub/CF", text: 'CF' , page:<CF/>}
