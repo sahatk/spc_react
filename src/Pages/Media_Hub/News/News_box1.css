@@ -1,0 +1,111 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/*News_box1 (SPC NEWS Feed 박스)////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#News_box1 {
+    display: flex; align-items: center; 
+    width: 100%;
+    height: 900px;
+    /* background-color: #fda; */
+} /*SPC NEWS Feed 박스 전체 영역*/
+
+#News_box1 .container{
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+} /*SPC NEWS Feed 박스 위치 영역*/
+
+#News_box1 .container .newsfeed_title{
+    width: 100%;
+    height: 100px;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+} /*SPC NEWS Feed 박스 타이틀*/
+
+#News_box1 .container .newsfeed_card_box{
+    width: 100%;
+    height: 460px;
+    /* background-color: #fdf; */
+} /*SPC NEWS Feed 박스 카드 전체 영역*/
+
+#News_box1 .container .newsfeed_card_ul{
+    width: 100%;
+    height: 460px;
+    display: flex; gap: 50px;
+    /* background-color: #3eb146; */
+} /*SPC NEWS Feed 박스 카드 위치 영역*/
+
+#News_box1 .container .newsfeed_card_li{
+    width: 500px;
+    height: 460px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 13px #ccc;
+} /*SPC NEWS Feed 박스 카드*/
+
+/*/////////////////////// SPC NEWS Feed 박스 카드 이미지 모음 ////////////////////////*/
+#News_box1 .container .newsfeed_card_image_01 {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_news_img/news_01.jpg);
+} /*SPC NEWS Feed 박스 카드 이미지 01*/
+
+#News_box1 .container .newsfeed_card_image_02 {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_news_img/news_02.jpg);
+} /*SPC NEWS Feed 박스 카드 이미지 02*/
+
+#News_box1 .container .newsfeed_card_image_03 {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_news_img/news_03.jpg);
+} /*SPC NEWS Feed 박스 카드 이미지 03*/
+/*/////////////////////// SPC NEWS Feed 박스 카드 이미지 모음 ////////////////////////*/
+
+
+#News_box1 .newsfeed_card_text{
+    position: relative;
+    width: 100%; height: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+} /*SPC NEWS Feed 박스 카드 제목 영역 */
+
+#News_box1 .newsfeed_card_text p{
+    padding : 15px 0 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} /*SPC NEWS Feed 박스 카드 제목 */
+
+#News_box1 .newsfeed_card_text .brand_text{
+    position: absolute;
+    bottom:30px; left: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #7d7d7d;
+} /*SPC NEWS Feed 박스 카드 브랜드 이름 */
+
+
+#News_box1 .newsfeed_card_text .date_text{
+    position: absolute;
+    bottom:30px; left: 150px;
+    color: #7d7d7d;
+} /*SPC NEWS Feed 박스 카드 날짜 */
+
+#News_box1 .newsfeed_card_text .view_more{
+    position: absolute;
+    bottom:20px; right: 30px;
+} /*SPC NEWS Feed 박스 카드 VIEW MORE 버튼 */
+
+/*News_box1 (SPC NEWS Feed 박스)///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

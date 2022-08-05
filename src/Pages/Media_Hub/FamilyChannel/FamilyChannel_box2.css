@@ -1,0 +1,20 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/*section_box2 (SPC 배너)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#FamilyChannel_box2 {
+    width: 100%;
+    height: 400px;
+} /*SPC 해피포인트 박스 전체 영역*/
+
+#FamilyChannel_box2 .container{
+    width: 1600px;
+    height: 400px;
+    margin: 0 auto;
+    background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;
+    background-image:url(../../../../public/img/spc_familychannel_img/banner/main-01.png);
+} /*SPC 해피포인트 박스 위치 영역*/
+
+/*section_box2 (SPC 배너)//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

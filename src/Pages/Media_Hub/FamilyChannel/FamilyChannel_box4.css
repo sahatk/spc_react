@@ -1,0 +1,188 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/*FamilyChannel_box4 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#FamilyChannel_box4 {
+    display: flex; align-items: center; justify-content: center;
+    width: 100%; height: 1000px;
+    /* background-color: #c3c; */
+} /*SPC 계열사 박스 전체 영역*/
+
+#FamilyChannel_box4 .container{
+    width: 1600px; height: 900px;
+    /* background-color: #ccc; */
+} /*SPC 계열사 박스 위치 영역*/
+
+#FamilyChannel_box4 .container .subsidiary_title{
+    width: 100%;
+    height: 100px;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 140px;
+} /*SPC 계열사 박스 타이틀*/
+
+#FamilyChannel_box4 .container .subsidiary_card_box{
+    width: 100%;
+    height: 1140px;
+    box-sizing: border-box;
+    /* background-color: #fda; */
+} /*SPC 계열사 박스 카드 전체 영역 */
+
+#FamilyChannel_box4 .container .subsidiary_card_ul{
+    display: flex; 
+    width: 100%; height: 150px; gap: 50px;
+    margin-bottom:15px;
+} /*SPC 계열사 박스 카드 위치 영역 */
+
+#FamilyChannel_box4 .container .subsidiary_card_li{
+    position: relative;
+    display: flex;
+    width: 500px; height: 150px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 13px #ccc;
+    box-sizing: border-box;
+    padding-left: 15px;
+} /*SPC 계열사 박스 카드 */
+
+
+#FamilyChannel_box4 .container .logo_name{
+    display: flex; align-items: center;
+    height: 150px;
+    padding-left: 10px;
+} /*SPC 계열사 박스 카드 로고 이름 */
+
+#FamilyChannel_box4 .container .icon_box{
+    display: flex; justify-content: center; align-items: center;
+    width: 50px; height: 150px;
+} /*SPC 계열사 박스 카드 home ICON 박스 */
+
+#FamilyChannel_box4 .container .icon_box_none{
+    display: none;
+    width: 0; height: 0; 
+} /*SPC 계열사 박스 카드 home ICON 박스 보이지않게 none*/
+
+#FamilyChannel_box4 .subsidiary_card_li .outline{
+    display: flex; justify-content: center; align-items: center;
+    width: 50px; height: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 13px #ccc;
+}  /*SPC 계열사 박스 카드 ICON 바깥 라인 박스 */
+
+#FamilyChannel_box4 .subsidiary_card_li .icon_wrap_01{
+    position: absolute;
+    display: flex; gap:8px;
+    box-sizing: border-box;
+    left: 441px;
+} /*SPC 계열사 박스 카드 ICON wrap -> icon 1개 일때 */
+
+#FamilyChannel_box4 .subsidiary_card_li .icon_wrap_02{
+    position: absolute;
+    display: flex; gap:8px;
+    box-sizing: border-box;
+    left: 384px;
+} /*SPC 계열사 박스 카드 ICON wrap -> icon 2개 일때 */
+
+#FamilyChannel_box4 .subsidiary_card_li .icon_wrap_03{
+    position: absolute;
+    display: flex; gap:8px;
+    box-sizing: border-box;
+    left: 324px;
+} /*SPC 계열사 박스 카드 ICON wrap -> icon 3개 일때 */
+
+#FamilyChannel_box4 .subsidiary_card_li .icon_wrap_04{
+    position: absolute;
+    display: flex; gap:8px;
+    box-sizing: border-box;
+    left: 267px;
+} /*SPC 계열사 박스 카드 ICON wrap -> icon 4개 일때 */
+
+
+#FamilyChannel_box4 .container .home_icon {
+    width: 30px; height: 30px;
+    background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;
+    background-image: url(../../../../public/img/spc_familychannel_img/icon/home_icon.png);
+} /*SPC 계열사 박스 카드 home ICON  */
+
+#FamilyChannel_box4 .container .instagram_icon {
+    width: 30px; height: 30px;
+    background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;
+    background-image: url(../../../../public/img/spc_familychannel_img/icon/instagram_icon.png);
+} /*SPC 계열사 박스 카드 instagram ICON  */
+
+#FamilyChannel_box4 .container .facebook_icon {
+    width: 30px; height: 30px;
+    background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;
+    background-image: url(../../../../public/img/spc_familychannel_img/icon/facebook_icon.png);
+} /*SPC 계열사 박스 카드 instagram ICON  */
+
+#FamilyChannel_box4 .container .youtube_icon {
+    width: 30px; height: 30px;
+    background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;
+    background-image: url(../../../../public/img/spc_familychannel_img/icon/youtube_icon.png);
+} /*SPC 계열사 박스 카드 instagram ICON  */
+
+/* ///////////////////////////// SPC 계열사 박스 카드 로고 이미지 모음 ///////////////////////////// */
+#FamilyChannel_box4 .container .logo_image_01{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_SPC_삼립.png);
+} /* SPC 삼립 */
+
+#FamilyChannel_box4 .container .logo_image_02{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_파리크라상.png);
+} /* 파리크라상 */
+
+#FamilyChannel_box4 .container .logo_image_03{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_비알코리아.png);
+} /* 비알코리아 */
+
+#FamilyChannel_box4 .container .logo_image_04{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_섹타나인.png);
+} /* (주)섹타나인 */
+
+#FamilyChannel_box4 .container .logo_image_05{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_SPC_GFS.png);
+} /* SPC GFS */
+
+#FamilyChannel_box4 .container .logo_image_06{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_SPL.png);
+} /* SPL */
+
+#FamilyChannel_box4 .container .logo_image_07{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_SPC_PACK.png);
+} /* SPC PACK */
+
+#FamilyChannel_box4 .container .logo_image_08{
+    width: 120px; height: 150px;
+    margin-left:15px;
+    background-repeat: no-repeat; background-size: contain; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_familychannel_img/subsidiary/subsidiary_타이거인터내셔날.png);
+} /* 타이거 인터내셔날 */
+
+/* ///////////////////////////// SPC 계열사 박스 카드 로고 이미지 모음 ///////////////////////////// */
+
+
+/*FamilyChannel_box4 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

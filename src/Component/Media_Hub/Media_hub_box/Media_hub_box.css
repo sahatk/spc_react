@@ -1,0 +1,66 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/*media_hub_box (MEDIA HUB 박스)///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#media_hub_box {
+    position: relative;
+    width: 100%;
+    height: 452px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #d9effa;
+} /*media_hub_box 전체 영역*/
+
+#media_hub_box .container {
+    position: relative;
+    width: 1600px;
+    height: 250px;
+    /* background-color: #fff; */
+} /* media_hub_box 위치 영역*/
+
+
+
+#media_hub_box .container .media_hub_box_image_01 {
+    position: absolute; left: 13rem; top: -150px;
+    width: 290px; height: 250px;
+    background-image: url(../../../../public/img/spc_familychannel_img/media_hub/hub-img04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+} /* media_hub_box 여성 이미지 */
+
+@media (min-width:1708px) {
+    #media_hub_box .container .media_hub_box_image_01 {
+        left: 13.5rem;
+    } /* media_hub_box 여성 이미지 */
+}
+
+#media_hub_box .media_hub_box_image_02 {
+    position: absolute; left: 900px; bottom: 1px;
+    width: 105px;
+    height: 166px;
+    background-image: url(../../../../public/img/spc_familychannel_img/media_hub/hub-img03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+} /* media_hub_box 남성 이미지 */
+
+#media_hub_box .container .media_hub_title {
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+} /* media_hub_box 제목*/
+
+#media_hub_box .container .media_hub_text {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #7d7d7d;
+} /* media_hub_box 텍스트 */
+
+/*media_hub_box/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

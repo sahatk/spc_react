@@ -1,0 +1,99 @@
+@import '../../../common/common.css';
+@import '../../../common/reset.css';
+@import '../../../common/variable.css';
+
+/*Youtube_box1 (SPC YOUTUBE Channel 박스)////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#Youtube_box1 {
+    display: flex; align-items: center; 
+    width: 100%;
+    height: 900px;
+    /* background-color: #fda; */
+} /*SPC YOUTUBE Channel 박스 전체 영역*/
+
+#Youtube_box1 .container{
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+} /*SPC YOUTUBE Channel 박스 위치 영역*/
+
+#Youtube_box1 .container .youtube_title{
+    width: 100%;
+    height: 100px;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+} /*SPC YOUTUBE Channel 박스 타이틀*/
+
+#Youtube_box1 .container .youtube_card_box{
+    width: 100%;
+    height: 460px;
+    /* background-color: #fdf; */
+} /*SPC YOUTUBE Channel 박스 카드 전체 영역*/
+
+#Youtube_box1 .container .youtube_card_ul{
+    width: 100%;
+    height: 460px;
+    display: flex; gap: 50px;
+    /* background-color: #3eb146; */
+} /*SPC YOUTUBE Channel 박스 카드 위치 영역*/
+
+#Youtube_box1 .container .youtube_card_li{
+    width: 500px;
+    height: 460px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 13px #ccc;
+} /*SPC YOUTUBE Channel 박스 카드*/
+
+/*/////////////////////// SPC YOUTUBE Channel 박스 카드 이미지 모음 ////////////////////////*/
+#Youtube_box1 .container .youtube_card_image_01 {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_youtube_img/youtube_card_image_01.jpg);
+} /*SPC YOUTUBE Channel 박스 카드 이미지 01*/
+
+#Youtube_box1 .container .youtube_card_image_02 {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_youtube_img/youtube_card_image_02.jpg);
+} /*SPC YOUTUBE Channel 박스 카드 이미지 02*/
+
+#Youtube_box1 .container .youtube_card_image_03 {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+    background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
+    background-image: url(../../../../public/img/spc_youtube_img/youtube_card_image_03.jpg);
+} /*SPC YOUTUBE Channel 박스 카드 이미지 03*/
+/*/////////////////////// SPC YOUTUBE Channel 박스 카드 이미지 모음 ////////////////////////*/
+
+
+#Youtube_box1 .youtube_card_text{
+    position: relative;
+    width: 100%; height: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+} /*SPC YOUTUBE Channel 박스 카드 제목 영역 */
+
+#Youtube_box1 .youtube_card_text p{
+    padding : 15px 0 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+} /*SPC YOUTUBE Channel 박스 카드 제목 */
+
+
+#Youtube_box1 .youtube_card_text .date_text{
+    position: absolute;
+    bottom:30px; left: 20px;
+    color: #7d7d7d;
+} /*SPC YOUTUBE Channel 박스 카드 날짜 */
+
+/*Youtube_box1 (SPC YOUTUBE Channel 박스)///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
