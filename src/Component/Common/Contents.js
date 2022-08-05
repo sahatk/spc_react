@@ -29,7 +29,7 @@ function Contents() {
         {link:'Media_Hub/CF', page:<CF/>},
         
 
-    ]
+    ];
 
   return (
     <main className='content_area'>
