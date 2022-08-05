@@ -26,6 +26,7 @@ SPC HOMEPAGE(react) VERCEL : https://spc-react-nu.vercel.app/
 <hr/>
 
 7월 1일 
+
 메인페이지 
 
 HTML,CSS : 완료
