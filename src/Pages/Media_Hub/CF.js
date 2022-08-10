@@ -8,7 +8,7 @@ function CF() {
   return (
     <div>
       <Media_hub_box/>
-      <Tab_menu_box/>
+      <Tab_menu_box index={5}/>
       <Cf_box1/>
       <Cf_box2/>
     </div>

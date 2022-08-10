@@ -8,7 +8,7 @@ function Youtube() {
   return (
     <div>
       <Media_hub_box/>
-      <Tab_menu_box/>
+      <Tab_menu_box index={4}/>
       <Youtube_box1/>
       <Youtube_box2/>
     </div>

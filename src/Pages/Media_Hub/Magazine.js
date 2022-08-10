@@ -9,7 +9,7 @@ function Magazine() {
   return (
     <div>
       <Media_hub_box/>
-      <Tab_menu_box/>
+      <Tab_menu_box index={2}/>
       <Magazine_box1/>
       <Magazine_box2/>
       <Magazine_box3/>

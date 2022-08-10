@@ -12,7 +12,7 @@ import CF from "../../../Pages/Media_Hub/CF";
 
 import "./Tab_menu_box.css";
 
-function Tab_menu_box() {
+function Tab_menu_box(props) {
   const subMenuList = [
     { id: uuid(), link:"/Media_Hub/FamilyChannel", text: '패밀리채널', page:<FamilyChannel/>},
     { id: uuid(), link:"/Media_Hub/News", text: '뉴스' , page:<News/>},
@@ -35,8 +35,8 @@ function Tab_menu_box() {
                 <li className="tab_menu_li"><a href="/CF" className="font_20">cf</a></li> */}
            {
             subMenuList.map(
-              list =>
-              <li className="tab_menu_li" key={list.id}>
+              (list,index) =>
+              <li className={"tab_menu_li " + (index === props.index ? "active" : null)} key={list.id}>
                 <Link className="font_20" to={list.link}>
                   {list.text}
                 </Link>

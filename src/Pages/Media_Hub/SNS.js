@@ -8,7 +8,7 @@ function SNS() {
   return (
     <div>
       <Media_hub_box/>
-      <Tab_menu_box/>
+      <Tab_menu_box index={3}/>
       <Sns_box1/>
       <Sns_box2/>
     </div>

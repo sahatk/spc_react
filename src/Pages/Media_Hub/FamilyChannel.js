@@ -11,7 +11,7 @@ function FamilyChannel() {
   return (
     <div>
       <Media_hub_box/>
-      <Tab_menu_box/>
+      <Tab_menu_box index={0}/>
       <FamilyChannel_box1/>
       <FamilyChannel_box2/>
       <FamilyChannel_box3/>

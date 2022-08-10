@@ -8,7 +8,7 @@ function News() {
   return (
     <div>
       <Media_hub_box/>
-      <Tab_menu_box/>
+      <Tab_menu_box index={1}/>
       <News_box1/>
       <News_box2/>
     </div>
