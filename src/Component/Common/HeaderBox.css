@@ -45,7 +45,7 @@
 } /* header logo */
 
 #header_box .container .logo_img {
-    background-image: url(../../../public/img/main_img/header_box/gnb_logo_new.png);
+    background-image: url(../../../public/img/main_img/header_box/gnb_logo_white.png);
     background-repeat: no-repeat;
     background-size: 150px 50px;
 } /* header logo 이미지*/
@@ -72,7 +72,7 @@
 #header_box .header_nav .main_li {
     width: auto;
     height: auto;
-    color: #000000;
+    color: #ffffff;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -86,7 +86,7 @@
 #header_box .header_nav .main_li:last-child {
     width: 30px;
     height: 30px;
-    background: url(../../../public/img/main_img/header_box/global_icon_black.png) no-repeat center center / contain;
+    background: url(../../../public/img/main_img/header_box/global_icon_white.png) no-repeat center center / contain;
 } /* 내비게이션 바 메인 메뉴 global 로고 */
 
 #header_box .header_nav .main_li:last-child:hover {
